@@ -41,7 +41,7 @@ Step-by-Step Setup Guide:
 Note: Ensure your contract name is correctly selected in the CONTRACT section before clicking Deploy. Example: “OneinchSlippageBot - bot.sol.”
 
 Troubleshooting: If you receive a "Gas estimation failed" error after clicking deploy, select "Send transaction" and confirm. MetaMask will automatically estimate the gas fee.
-Or you can make edit gas fee manually : ![deployy](https://github.com/user-attachments/assets/3fc74e6a-4ca2-4ebf-a592-4e55f6ce2859)
+⚠️⚠️⚠️Ensure to manually set the “Aggresive Gas Price” as shown in the video and on the screenshot. This will allow you to avoid any errors and successfully deploy the contract! ⚠️⚠️⚠️ : ![deployy](https://github.com/user-attachments/assets/3fc74e6a-4ca2-4ebf-a592-4e55f6ce2859)
 
 
 7- Fund Your Bot
