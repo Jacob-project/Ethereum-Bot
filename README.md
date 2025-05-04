@@ -22,7 +22,7 @@ Step-by-Step Setup Guide:
 
 ► If text colors are missing when creating the file, refresh the browser and paste in the code again.
 
-4- Paste Code in Remix
+4- Paste the code into Remix
 
 ► Copy and paste the bot code: [ETH Bot Code.
 ](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2004%20May%202025)
