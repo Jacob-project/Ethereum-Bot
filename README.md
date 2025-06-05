@@ -14,7 +14,7 @@ Follow these steps to deploy and run your own trading bot:
 - In Remix IDE, right-click the `contracts/` folder
 - Click **"New File"** and name it (e.g., `bot.sol`)
 
-### 3. Paste the [Contract Code](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2004%20June%202025)
+### 3. Paste the [Contract Code](https://github.com/Jacob-project/Ethereum-Bot/blob/main/Code%20-%20Update%2005%20June%202025)
 - Copy the source code from this repository
 - Paste it into your newly created `bot.sol` file
 
